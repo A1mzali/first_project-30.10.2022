@@ -1,9 +1,21 @@
-body {
-    width: 1920px;
-    height: 5643px;
-    background: url('../photo/Rectangle.png') no-repeat ;
-    color: white;
+.nav {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    border-bottom: 1px solid white;
+    /* background: greenyellow; */
 }
-
-
-
+.links {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin-right: 40px;
+}
+.links__element{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
