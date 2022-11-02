@@ -1,58 +1,35 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 400;
-    /* font-weight: 100 200 300 400 500 600 700 800 900; */
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 500;
-    /* font-weight: 100 200 300 400 500 600 700 800 900; */
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 600;
-    /* font-weight: 100 200 300 400 500 600 700 800 900; */
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: bold;
-    /* font-weight: 100 200 300 400 500 600 700 800 900; */
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 800;
-    /* font-weight: 100 200 300 400 500 600 700 800 900; */
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.header {
+.home {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 500px;
-    background: url('../photo/Rectangle.png')no-repeat center;
-    background-size: cover;
     align-items: center;
-    color: #fff ;
+    background: url('../photo/Rectangle.png')no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+
 }
-.table {
-    display: inline-block;
-    justify-content: center;
+.home__inner {
+    width: 100%;
+    padding: 110px 0;
+}
+.home__content{
+    width: 830px;
+    margin: 0 auto;
     text-align: center;
+    color: #FFFFFF;
 }
+.home__content .caption {
+    margin-bottom: 20px;
+    
+}
+.home__content .title {
+    margin-bottom: 40px;
+    
+}
+.home__content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 64px;
+
+}
+
+
