@@ -5,7 +5,6 @@
     background: url('../photo/Rectangle.png')no-repeat center;
     min-height: 100vh;
     background-size: cover;
-
 }
 .home__inner {
     width: 100%;
@@ -29,7 +28,53 @@
     font-size: 48px;
     font-weight: bold;
     line-height: 64px;
-
+}
+.parent {
+    width: 1113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.parent_content {
+    display: inline-block;
+    padding: 100px;
 }
 
-
+.text__list h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #323232;
+}
+.text__list p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
+    padding: 50px;
+}
+.text__list2 {
+    display: flex;
+    padding: 20px;
+}
+.list__items {
+    display: flex;
+    
+}
+.items {
+    /* padding: 170px; */
+}
+.items h3 {
+    width: 226px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px;
+}
+.items p {
+    width: 222px;
+    height: 58px;
+    font: 14px 'Montserrat', sans-serif;
+    line-height: 23px;
+    padding: 18px;
+}
