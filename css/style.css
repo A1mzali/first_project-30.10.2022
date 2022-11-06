@@ -36,7 +36,7 @@
 }
 .parent_content {
     display: inline-block;
-    padding: 100px;
+    padding: 70px;
 }
 
 .text__list h2 {
@@ -54,14 +54,12 @@
 }
 .text__list2 {
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    /* padding: 20px; */
 }
 .list__items {
     display: flex;
     
-}
-.items {
-    /* padding: 170px; */
 }
 .items h3 {
     width: 226px;
@@ -69,12 +67,121 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    padding: 16px;
+    padding: 30px;
 }
 .items p {
     width: 222px;
     height: 58px;
     font: 14px 'Montserrat', sans-serif;
-    line-height: 23px;
+    font-weight: 400;
+    line-height: 22px;
     padding: 18px;
+    color: #999999;
 }
+.table2 {
+    padding: 75px;
+}
+
+.oldest {
+    display: flex;
+    /* height: 627px; */
+    align-items: center;
+    background-color: #F6F6F8;
+   
+}
+.oldest_parent {
+    width: 1110px;
+    border-bottom: 1px solid red;
+}
+.oldest_child{
+    margin-top: 90px;
+}
+.oldest1 {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    margin-top: 100px;
+   
+}
+.oldest_list{
+    width: 489px;
+    height: 295px;
+    /* align-items: center; */
+    /* margin: auto; */
+    margin-right: 121px;
+}
+.lists_h2 h2 {
+    width: 424px;
+    height: 88px;
+    font: 36px 'Montserrsat', sans-serif;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 40px;
+    color: #323232;
+}
+.lists_p p {
+    width: 489px;
+    height: 117px;
+    font: 16px 'Montserrsat', sans-serif;
+    font-weight: 400;
+    line-height: 25.36px;
+    margin-bottom: 30px;
+    color: #999999;
+}
+.lists_a a {
+    width: 202px;
+    height: 20px;
+    font: 16px 'Montserrsat', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 143px;
+    color: #4985FF;
+}
+.oldest_img {
+    width: 500px;
+    height: 400px;
+    /* box-shadow: 0 0 10px rgba(111, 111, 111, .25); */
+    border-radius: 30px;
+
+}
+
+.oldest2 {
+display: block;
+ margin-top: 70px;
+}
+
+.big_kv {
+ display: flex;
+ justify-content: space-between;
+ text-decoration: none;
+
+}
+
+.mini_kv {
+    display: flex;
+    width: 104px;
+    height: 64px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.big_kv .imgs {
+    width: 30px;
+    height: 26.47px;
+}
+.mini_kv .number {
+        width: 54px;
+        height: 35px;
+        font: 36px 'Montrerrat', sans-serif;
+        font-weight: 400;
+        line-height: 53px;
+        color: #000000;
+}
+.mini_kv .our {
+    display: flex;
+   width: 100px;
+   height: 15px;
+}
+
