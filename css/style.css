@@ -184,7 +184,6 @@ display: flex;
         color: #000000;
 }
 .mini_kv .our {
-    /* display: flex; */
     width: 100px;
     height: 15px;
     text-align: center;
