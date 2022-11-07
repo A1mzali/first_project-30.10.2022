@@ -94,23 +94,22 @@
     border-bottom: 1px solid red;
 }
 .oldest_child{
-    margin-top: 90px;
+    margin-top: 100px;
+    border-bottom: 1px solid #e0e0e0;
 }
 .oldest1 {
+    display: flex;
     width: 500px;
-    height: 400px;
+    height: 490px;
     display: flex;
     align-items: center;
-    /* margin: auto; */
-    margin-top: 100px;
    
 }
+
 .oldest_list{
     width: 489px;
     height: 295px;
-    /* align-items: center; */
-    /* margin: auto; */
-    margin-right: 121px;
+    margin-bottom: 53px;
 }
 .lists_h2 h2 {
     width: 424px;
@@ -143,45 +142,55 @@
 .oldest_img {
     width: 500px;
     height: 400px;
-    /* box-shadow: 0 0 10px rgba(111, 111, 111, .25); */
+    margin-left: 121px;
     border-radius: 30px;
-
+    margin-bottom: 90px;
 }
 
 .oldest2 {
-display: block;
- margin-top: 70px;
+display: flex;
 }
 
 .big_kv {
  display: flex;
- justify-content: space-between;
- text-decoration: none;
+ 
 
 }
 
 .mini_kv {
-    display: flex;
+    display: inline-block;
     width: 104px;
     height: 64px;
-    margin: 0 auto;
-    padding: 20px;
+    padding: 70px 100px;
 }
-.big_kv .imgs {
+.mini_kv .img_num {
+    display: flex;
+    margin-bottom: 17px;
+   
+}
+
+.img_num  .imgs {
+
     width: 30px;
     height: 26.47px;
 }
-.mini_kv .number {
+
+.img_num  .number {
         width: 54px;
         height: 35px;
         font: 36px 'Montrerrat', sans-serif;
         font-weight: 400;
-        line-height: 53px;
+        padding-left: 20px;
         color: #000000;
 }
 .mini_kv .our {
-    display: flex;
-   width: 100px;
-   height: 15px;
+    /* display: flex; */
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    font: 16px 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
 }
 
