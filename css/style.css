@@ -361,12 +361,10 @@ display: flex;
     height: 570px;
     background-size: cover;
     position: relative;
-    
 } 
 .video_header {
    margin: auto;
    text-align: center;
-  
 }
 .video_item h2 {
     height: 35px;
@@ -384,20 +382,21 @@ display: flex;
     margin-bottom: 70px;
     color: #FFFFFF;
 }
-
+.video_item-2 {
+    position: absolute;
+    border-bottom: 1px solid #E0E0E0;
+    width: 1110px;
+    height: 515px;
+}
 .video_img-2 {
     position: absolute;
     background: url(..//photo/city.png) no-repeat, center;
+    margin-left: 75px;
     width: 970px;
     height: 430px;
-    align-items: center;
-    text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25) ; 
-    border-bottom: 10px solid red;
 }
-
-
 .img_1 {
     display: flex;
     margin: auto;
@@ -408,7 +407,7 @@ display: flex;
     align-items: center;
     border-radius: 200px;
     margin-top: 165px;
-    background: rgba(129, 124, 124, 0.25);
+    background: rgba(129, 124, 124, 0.25);  
     
 }
 .img_1 .icon-play {
@@ -429,3 +428,54 @@ display: flex;
    border: none;
    background: rgba(129, 124, 124, 0.25);
 } 
+
+/* Subrice */
+
+.subcribe {
+    display: flex;
+    margin-top: 300px;
+}
+.subcribe_list {
+    display: flex;
+    margin: auto;
+}
+.subcribe_items {
+    width: 730px;
+    height: 177px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.subcribe_items h3 {
+    font: 18px "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 13px;
+    margin-bottom: 20px;
+    margin-top: 85px;
+    color: #000000;
+}
+.subcribe_items .p_text {
+    font: 16px "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #999999;
+    text-align: center;
+}
+.subcribe_items .btn-3 {
+    width: 489px;
+    height: 45px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(111, 111, 111,0.25);
+    margin-bottom: 35px;
+}
+.subcribe_items .p_text_2 {
+    font: 13px "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 85px;
+    color: #999999;
+    text-align: center;
+}
