@@ -473,7 +473,7 @@ display: flex;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(111, 111, 111,0.25);
     margin-bottom: 35px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #F2F2F2;
 }
 .btn-3 .text-p {
     width: 117px;
@@ -516,4 +516,74 @@ display: flex;
     margin-bottom: 85px;
     color: #999999;
     text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 155px;
+    background: #F6F6F8;
+
+}
+
+
+
+.footer_items {
+    display: inline-block;
+}
+
+.footer_items-1 {
+    width: 1110px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 30px;
+}
+
+
+
+.footer_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-right: 43px;
+    margin-left: 45px;
+}
+
+.footer_list {
+    width: 245px;
+    height: 198px;
+}
+
+.footer_list h3 {
+    width: 242px;
+    height: 17px;
+    font: 18px 'Montsserrat', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 35px;
+    
+}
+.footer_list .text-f {
+   width: 225px;
+   height: 14px;
+   font: 14px 'Montserrat', sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 30px;
+    color: #999999;
+    
+}
+
+
+
+
+
+.end-1 {
+    margin: auto;
+    text-align: center;
+}
+
+
+ .end {
+    margin-bottom: 30px;
 }
