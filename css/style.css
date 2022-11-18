@@ -551,6 +551,13 @@ display: flex;
 .footer_list {
     width: 245px;
     height: 198px;
+    
+}
+
+.footer_list .main_list  li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 12px;
 }
 
 .footer_list h3 {
@@ -570,8 +577,7 @@ display: flex;
    font-weight: 400;
    font-style: normal;
    margin-bottom: 30px;
-    color: #999999;
-    
+    color: #999999;  
 }
 
 
